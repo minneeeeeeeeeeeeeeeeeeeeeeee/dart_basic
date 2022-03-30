@@ -6,6 +6,6 @@ void main(){
 
   print(name+city) ;
   print(age+number) ;
-  print(name+age.toString()) ;
+  print("ชื่อ = " +name+age.toString()) ;
  
 }
