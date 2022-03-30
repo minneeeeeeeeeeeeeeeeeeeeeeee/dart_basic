@@ -1,14 +1,15 @@
 void main(){
-  var monut = 1;
+  var month = 1 ;
   String name;
 
-  if(mount == 1){
+  if(month == 1){
     name = "มกราคม";
-  }else if (monut == 2) {
+  }else if (month == 2) {
     name = "กุมภาพันธ์";
-  }else if (monut == 3) {
+  }else if (month == 3) {
     name = "มีนาคม";
   }else{
     name = "ไม่มีข้อมูล" ;
   }
+  print("เดือนของเรา") ;
 }
