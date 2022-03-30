@@ -9,7 +9,7 @@ void main(){
   var b = x * y ; // คูณ
   print("การลบ = $x * $y = $b");
 
-  var c = x / y ; // หาร
+  double c = x / y ; // หาร
   print("การลบ = $x / $y = $c");
 
 
