@@ -1,10 +1,10 @@
 void main(){
 
   int count = 1 ;
-
-  while(count <= 3){
+  int stop = 10 ;
+  while(count <= stop){
     //ทำอะไร 
-    print("Hello Dart = $count") ;
+    print("ผลิตสินค้ารอบที่ = $count") ;
     count++ ;
   }
   print("จบโปรแกรม") ;
