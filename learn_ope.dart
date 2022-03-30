@@ -6,4 +6,7 @@ void main(){
   print(x<y);
   print(x>=y);
   print(x<=y);
+
+  bool z = (x<=y);
+  print(z);
 }
