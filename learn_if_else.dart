@@ -1,7 +1,8 @@
 void main(){
-  var x = 100;
+  var x = 103;
   if(x % 2 == 0){
     print( "$x เป็นเลขคู่" );
+  }else{
+    print("$x เป็นเลขคี่");
   }
-  print("จบการทำงาน");
 }
