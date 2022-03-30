@@ -1,7 +1,7 @@
 void main(){
-  var fname = ' baam ' ;
-  String lname = ' baam baam ' ;
+  var name = ' baam ' ;
+  var age = 20 ;
 
-  print(fname) ;
-  print(lname) ; 
+  print(name) ;
+  print(age) ; 
 }
