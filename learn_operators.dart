@@ -7,10 +7,10 @@ void main(){
   print("การลบ = $x - $y = $a");
 
   var b = x * y ; // คูณ
-  print("การลบ = $x * $y = $b");
+  print("การคูณ = $x * $y = $b");
 
   double c = x / y ; // หาร
-  print("การลบ = $x / $y = $c");
+  print("การหาร = $x / $y = $c");
 
 
 }
