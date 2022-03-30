@@ -4,6 +4,6 @@ void main(){
   print(number1) ;
 
   //final 
-  final int number2 = 150 ;
+  final number2 = 150 ;
   print(number2) ;
 }
