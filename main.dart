@@ -1,3 +1,6 @@
 void main(){
-  print("Hello thanawut");
+  /*
+  การเขียนอธิบายแบบยาว
+  */
+  print("Hello thanawut"); //แสดงข้อความทางหน้าจอ
 }
