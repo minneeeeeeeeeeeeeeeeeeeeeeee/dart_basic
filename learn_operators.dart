@@ -1,5 +1,10 @@
 void main(){
   var x = 100, y = 50; 
+
+  int v = 100, t = 30 ;
+  int w = (v/t).toInt() ;
+  print(w) ;
+
   var z = x + y ; // บวก
   print("การบวก = $x + $y = $z");
 
@@ -11,6 +16,8 @@ void main(){
 
   double c = x / y ; // หาร
   print("การหาร = $x / $y = $c");
+
+
 
 
 }
