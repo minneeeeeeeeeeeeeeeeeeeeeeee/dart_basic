@@ -20,6 +20,6 @@ void main(){
   }else if (score>=50){
     print("D") ;
   }else{
-    print("F")
+    print("F") ;
   }
 }
