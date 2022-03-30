@@ -1,15 +1,16 @@
 void main(){
-  var month = 1 ;
+  var month = 10 ;
   String name;
 
-  if(month == 1){
-    name = "มกราคม";
-  }else if (month == 2) {
-    name = "กุมภาพันธ์";
-  }else if (month == 3) {
-    name = "มีนาคม";
-  }else{
-    name = "ไม่มีข้อมูล" ;
+ switch(month) {
+   case 1 : name = "มกราคม" ;
+    break ;
+   case 2 : name = "กุมภาพันธ์" ;
+    break ;
+   case 3 : name = "มีนาคม" ;
+     break;
+   default: name = "ไม่พบข้อมูล" ;
   }
-  print("เดือนของเรา") ;
+
+  print("เลขเดือน $month = $name") ;
 }
