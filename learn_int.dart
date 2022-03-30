@@ -1,6 +1,6 @@
 void main(){
-  int age = 20 ; //จำนวนเต็ม
-  double pi = 3.32 ;
+  num age = 20 ; //จำนวนเต็ม
+  num pi = 3.32 ;
   print(age) ;
   print(pi) ;
 }
