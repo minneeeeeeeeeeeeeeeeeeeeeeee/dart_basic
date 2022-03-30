@@ -1,8 +1,8 @@
 void main(){
-  var x = 103;
-  if(x % 2 == 0){
-    print( "$x เป็นเลขคู่" );
+  var x = 10, y = 15 ;
+  if(x>y){
+    print( "$x มากกว่า $y" );
   }else{
-    print("$x เป็นเลขคี่");
+    print("$x น้อยกว่า $y");
   }
 }
