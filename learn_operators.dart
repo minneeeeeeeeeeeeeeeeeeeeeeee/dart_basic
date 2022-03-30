@@ -3,7 +3,10 @@ void main(){
 
   int v = 100, t = 30 ;
   int w = (v/t).toInt() ;
-  print(w) ;
+  print("การหาร = $v / $t = $w") ;
+
+  int u = (v%t);
+  print("การหารเอาเศษ = $v / $t = $u") ;
 
   var z = x + y ; // บวก
   print("การบวก = $x + $y = $z");
