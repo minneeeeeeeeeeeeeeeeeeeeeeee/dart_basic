@@ -1,6 +1,6 @@
 void main(){
   //constant 
-  const int number1 = 100 ;
-  number1 = 500 ;
+  const number1 = 100 ;
+  
   print(number1) ;
 }
