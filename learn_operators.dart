@@ -2,7 +2,7 @@ void main(){
   var x = 100, y = 50; 
 
   int v = 100, t = 30 ;
-  int w = (v/t).toInt() ;
+  int w = v~/t ;
   print("การหาร = $v / $t = $w") ;
 
   int u = (v%t);
