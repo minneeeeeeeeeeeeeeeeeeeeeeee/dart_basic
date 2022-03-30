@@ -1,7 +1,7 @@
 void main(){
-  int x = 10 ;
-  int y = 20 ;
+  int _final = 10 ;
+  int _var = 20 ;
 
-  print(x) ;
-  print(y) ;
+  print(_final) ;
+  print(_var) ;
 }
