@@ -1,6 +1,6 @@
 void main(){
 
-  int count = 3 ;
+  int count = 1 ;
 
   while(count <= 3){
     //ทำอะไร 
