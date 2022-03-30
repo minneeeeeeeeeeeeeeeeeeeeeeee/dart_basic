@@ -4,7 +4,7 @@ void main(){
 
   while(count <= 3){
     //ทำอะไร 
-    print("Hello Dart") ;
+    print("Hello Dart = $count") ;
     count++ ;
   }
   print("จบโปรแกรม") ;
