@@ -1,7 +1,7 @@
 void main(){
-  var x = 100, y = 200 ;
-  if(x<y){
-    print( "$x น้อยกว่า $y" );
+  var x = 100;
+  if(x % 2 == 0){
+    print( "$x เป็นเลขคู่" );
   }
   print("จบการทำงาน");
 }
