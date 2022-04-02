@@ -3,13 +3,16 @@ void main(){
 
   //สร้าง object 
   Employee emp1 = Employee() ;
-  emp1.name = "สมหมาย" ;
-  emp1.salary = 25000 ;
-  emp1.showData() ;
+  emp1.setName("สมหมาย") ;
+  emp1.setSalary(25000) ;
+  print(emp1.getName()) ;
+  print(emp1.getSalary()) ;
 
   Employee emp2 = Employee() ;
-  emp2.name = "สมศรี" ;
-  emp2.salary = 20000 ;
-  emp2.showData() ;
+  emp2.setName("สมศรี" ) ;
+  emp2.setSalary(20000) ;
+  print(emp2.getName()) ;
+  print(emp2.getSalary()) ;
+  
 
 }
