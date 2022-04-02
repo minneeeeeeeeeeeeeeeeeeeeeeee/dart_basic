@@ -1,8 +1,10 @@
 void main(){
-  showData("bibibibi", "mimi") ;
-  showData("weeeee", "") ;
+  showData("bibibibi", "เชียงใหม่") ;
+  showData("weeeee","เชียงราย") ;
+  showData("weeeee") ;
+
 }
 
-void showData(String name, String city) {
+void showData(String name, [String city = "ลำปาง"]) {
   print(" ชื่อ = $name ที่อยู่ = $city") ;
 }
