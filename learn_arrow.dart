@@ -1,9 +1,11 @@
 void main(){
   showName("bibi") ;
-  var city = getCity();
-  print(city) ;
+  var result = plus(100,5);
+  print(result) ;
 
 }
 
 void showName(name)=>print(name) ;
 String getCity()=>"ระยอง" ;
+
+plus(x,y)=>x+y ;
