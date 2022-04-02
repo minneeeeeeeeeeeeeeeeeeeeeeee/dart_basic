@@ -6,6 +6,9 @@ void main(){
   color["Pink"] = "สีชมพู" ;
   print(color) ;
 
+  color.remove("Pink") ;
+  print(color) ;
+
   Map<int,String> code = {404:"Not Found",200:"OK"} ;
   print(code[200]) ;
 }
