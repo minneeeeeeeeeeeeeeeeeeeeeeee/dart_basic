@@ -16,9 +16,12 @@ void main(){
 
   print("**************************************************************************************************************************") ;
 
-  List<int> number = [1,2,3,4,5,6] ;
+  List<int> number = [1,2,3,4,5,6,4,4,5,8] ;
   print(number);
 
   number.remove(5) ;
+  print(number) ;
+
+  number.removeWhere((element) => element == 4) ;
   print(number) ;
 }
