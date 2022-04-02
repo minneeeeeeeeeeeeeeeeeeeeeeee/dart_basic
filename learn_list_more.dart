@@ -7,6 +7,8 @@ void main(){
   color.addAll(["เขียวมะนาาว", "ชมพู", "น้ำตาล"]) ; //เพิ่มที่ละหลายค่า 
   print(color) ;
 
-  color.insert(1,"เทา") ; //แทรก
+  color.insert(1,"เทา") ; //แทรกที่ละ 1 
+   print(color) ;
+  color.insertAll(3,["แสด","คราม","เขียวอ้อน"]) ; //แทรกที่ละหลายค่า 
   print(color) ;
 }
