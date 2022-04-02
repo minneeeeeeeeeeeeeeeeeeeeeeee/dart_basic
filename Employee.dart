@@ -4,6 +4,13 @@ class Employee{
   String _name = "หิวข้าวแล้ว" ;
   double _salary = 20000;
 
+
+  Employee(String name, double salary){
+    this._name = name ;
+    this._salary = salary ;
+  }
+
+
   //การสร้าง method 
   void development(){
     print("เขียนโปรแกรมพัฒนาระบบสารสนเทศภายในบริษัท") ;
