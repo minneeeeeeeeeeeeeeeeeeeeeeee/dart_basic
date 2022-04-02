@@ -2,9 +2,11 @@ void main(){
   List<String> color =["น้ำเงิน", "ส้ม", "ฟ้า", "ม่วง", "ชมพู"] ;
   print(color);
 
-   color..remove("ฟ้า") ;
+  color..remove("ฟ้า") ;
   print(color) ;
 
+  color.removeRange(2,4) ;
+  print(color) ;
   print("**************************************************************************************************************************") ;
 
   List<int> number = [1,2,3,4,5,6] ;
