@@ -3,7 +3,8 @@ void main(){
   print(number1[2]) ;
 
   Map<String,String> color = {"Blue" : "สีน้ำเงิน", "Black" : "สีดำ" } ;
-  print(color["Black"]) ;
+  color["Pink"] = "สีชมพู" ;
+  print(color) ;
 
   Map<int,String> code = {404:"Not Found",200:"OK"} ;
   print(code[200]) ;
