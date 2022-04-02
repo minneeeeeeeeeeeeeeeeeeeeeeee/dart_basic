@@ -5,12 +5,9 @@ class Employee{
   double _salary = 20000;
 
 
-  Employee(String name, double salary){
-    this._name = name ;
-    this._salary = salary ;
-  }
+  Employee(this._name, this._salary) ;
 
-
+  
   //การสร้าง method 
   void development(){
     print("เขียนโปรแกรมพัฒนาระบบสารสนเทศภายในบริษัท") ;
