@@ -2,7 +2,7 @@ void main(){
 
   var x = 20.19 ;
   var result = calculate(x) ;
-  print(" $x องศาเซลเซียล = $result องศาเควิน ") ;
+  print(" $x องศาเซลเซียล = $result องศาเคลวิน ") ;
 
 }
 
