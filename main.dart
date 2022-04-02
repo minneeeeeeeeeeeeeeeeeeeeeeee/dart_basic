@@ -1,6 +1,10 @@
+import 'Employee.dart';
 void main(){
-  /*
-  การเขียนอธิบายแบบยาว
-  */
-  print("Hello thanawut"); //แสดงข้อความทางหน้าจอ
+
+  //สร้าง object 
+  Employee emp1 = Employee() ;
+
+  print(emp1.name) ;
+  print(emp1.salary.toString()) ;
+
 }
