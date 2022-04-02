@@ -9,21 +9,24 @@ class Employee{
     print("เขียนโปรแกรมพัฒนาระบบสารสนเทศภายในบริษัท") ;
   }
 
-  void _showData(){
+  void showData(){
     print("ชื่อพนักงาน = "+_name) ;
     print("เงินเดือนพนักงาน = "+_salary.toString()) ;
   }
-}
-void main(){
-
-  //สร้าง object 
-  Employee emp1 = Employee() ;
-  emp1._name = "สมหมาย" ;
-  emp1._salary = 25000 ;
-  emp1._showData() ;
-
-  Employee emp2 = Employee() ;
-  emp2._name = "สมศรี" ;
-  emp2._salary = 20000 ;
-  emp2._showData() ;
+  //setter
+  void setName(String name){
+    this._name = name ;
   }
+
+  void setSalary(double salary){
+    this._salary = salary ;
+  }
+  //getter
+
+  String getName(){
+    return this._name ;
+  }
+  double getSalary(){
+    return this._salary ;
+  }
+}
