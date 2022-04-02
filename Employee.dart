@@ -13,7 +13,7 @@ class Employee{
     print("ชื่อพนักงาน = "+_name) ;
     print("เงินเดือนพนักงาน = "+_salary.toString()) ;
   }
-
+}
 void main(){
 
   //สร้าง object 
@@ -27,4 +27,3 @@ void main(){
   emp2._salary = 20000 ;
   emp2._showData() ;
   }
-}
