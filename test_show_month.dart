@@ -1,8 +1,10 @@
 void main(){
+  String name = getMonth(1) ;
+  print(name) ;
 
 }
 
-void showMonth(int number){
+String getMonth(int number){
 String month ;
 switch(number){
   case 1 : month = "มกราคม" ;
@@ -13,4 +15,5 @@ switch(number){
     break;
   default : month = "ไม่พบเดือน" ;
   }
+return month ;
 }
