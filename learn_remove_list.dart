@@ -24,4 +24,7 @@ void main(){
 
   number.removeWhere((element) => element == 4) ;
   print(number) ;
+
+  number.removeWhere((element) => element%2 == 0) ;
+  print(number) ;
 }
