@@ -1,15 +1,17 @@
 import 'Employee.dart';
+import 'Programmer.dart';
+import 'manager.dart';
+import 'sale.dart';
 void main(){
 
   //สร้าง object 
-  Employee emp1 = Employee("สมหมาย", 25000) ;
-  Employee emp2 = Employee("สมศรี", 20000) ;
-  Employee emp3 = Employee("สมหวัง", 20000) ;
-  
+ Manager manager = Manager("สมหมาย", 30000) ;
+ manager.showData() ;
 
-  emp1.showData() ;
-  emp2.showData() ;
-  emp3.showData() ;
-  
+ Programmer programmer = Programmer("สมหวัง", 25000)  ;
+ programmer.showData() ;
+
+ Sale sale = Sale("สมศรี", 20000) ;
+ sale.showData() ;
 
 }
