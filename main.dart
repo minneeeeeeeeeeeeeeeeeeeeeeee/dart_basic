@@ -3,8 +3,8 @@ void main(){
 
   //สร้าง object 
   Employee emp1 = Employee() ;
-
-  print(emp1.name) ;
-  print(emp1.salary.toString()) ;
+  emp1.name = "เมยเมย" ;
+  emp1.salary = 25000 ;
+  emp1.showData() ;
 
 }
