@@ -5,6 +5,5 @@ void main(){
 
 }
 
-void showData(String name, [String city = "ลำปาง"]) {
+void showData(name, [String city = "ลำปาง"]) =>
   print(" ชื่อ = $name ที่อยู่ = $city") ;
-}
