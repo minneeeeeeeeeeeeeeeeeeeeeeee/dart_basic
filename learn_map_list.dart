@@ -5,9 +5,12 @@ void main(){
 
    print('************************************************************************************') ;
 
-   var en = color.keys ;
-   print(en) ;
-   var th = color.values ;
-   print(th) ;
+   List en = color.keys.toList() ;
+   print(en[0]) ;
+
+   List th = color.values.toList() ;
+   print(th[1]) ;
+
+
 
 }
